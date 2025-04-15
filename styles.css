@@ -1,0 +1,180 @@
+body {
+  margin: 0px;  
+  font-family: "Pacifico", sans-serif;
+  background-color:rgb(204, 238, 255);
+}
+
+.balk {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*taakbalk*/
+.lr {
+        Display: flex;
+        justify-content: space-between;
+        padding: 35px;
+        background-image: url(plaat/old_mathematics.png);
+        
+}
+/*rgb(192, 241, 250*/
+.links {
+    Display: flex;
+    
+}
+.lr > .links > div {
+   margin-right: 15px;
+   font-size: 0.9em; 
+   text-transform: uppercase;
+}
+.links {
+    height: 22px;
+    Border-bottom: 1px solid transparent;
+    transition: Border-bottom 1s;
+}
+
+.links a {
+    color: #a8a8a8;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.links-home:hover {
+    Border-bottom: 1px solid black;
+}
+.links-mavo3:hover {
+    Border-bottom: 1px solid black;
+}
+.links-over:hover {
+    Border-bottom: 1px solid black;
+}
+.links a:hover {
+    color: black;
+}
+.actief-links {
+    border-bottom: 1px solid black;
+}
+.actief-links a {
+    color: black !important;
+}
+/* uitleg site*/
+.container-intro {
+    background-image: url(plaat/old_mathematics.png);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+.intro {
+    padding-left: 30px;
+    height: 120px;
+    width: auto;
+    background-image: url(plaat/23.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge; 
+    color: blue;   
+    
+}
+
+/*hoofdstukk met plaatjes*/
+.zwartebalk {
+    background-color: black;
+    height: 3px;
+    width: auto;
+}
+.site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.sitehome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url(plaat/old_mathematics.png);
+}
+.hoofdstuk {
+    position: relative;
+    text-decoration: none;
+
+}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+.hoofdstuk-img-achtergrond {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.plaatje {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+
+.tekst a {
+    text-decoration: none;
+    color: black;
+}
+.hoofdstuk .tekst a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+    font-weight: 600;
+    color: transparent(50%)
+}
+.hoofdstuk:hover .tekst a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(250, 26, 26);
+    
+}
+.hoofdstuk .tekst {
+    text-decoration: none;
+    transition: 1s;
+    font-weight: 600;
+    color: transparent(50%)
+}
+.hoofdstuk:hover .tekst {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(250, 26, 26);
+    
+}
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/* about page*/
+.twee-colommen {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    
+}
+.profielplaatje img {
+    width: 100%;
+}
+.profieltekst {
+    padding: 30px;
+}
+.profieltekst h1 {
+    color: lightseagreen;
+
+}

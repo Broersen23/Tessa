@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" /> 
+<title>Wiskunde met Niels</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<style>
+
+
+</style>
+</head>
+<body>
+  <div class="balk">
+    <div class="lr">
+      <div class="links">
+        <div class="links-home">
+          <a href="home.html">Home</a>
+        </div>
+        <div class="links-mavo3 actief-links">
+          <a href="mavo3.html">Mavo 3</a>
+        </div>
+        <div class="links-over">
+          <a href="about.html">Over</a>
+        </div>
+      </div>
+      <div class="rechts"></div>
+        <div>Niels Broersen</div>
+      </div>
+    </div>
+  </div>
+  <div class="zwartebalk"></div>
+  <div class="site">
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+          
+          <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/procenten2.jpg)"><a href="mavo3 hoofdstuk1.html"></a></div>
+          
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><a href="mavo3 hoofdstuk1.html"><h1>Procenten</h1></a></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/meetkunde.jpg)"></div>
+            
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><a href="mavo3 hoofdstuk2.html"><h1>Meetkunde</h1></a></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="hoofdstukken">
+        <a href="mavo3 hoofdstuk3.html">
+        <div class="hoofdstuk">
+          <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/Formules.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Formules</h1></div>
+            </div>
+
+
+        </div></a>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/statestiek.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Statistiek</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/goniometrie.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Goniometrie</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/periodiekeverbanden.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Periodieke verbanden</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/oppervlakte.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Oppervlakte en inhoud</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/getallen.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Getallen</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+      <div class="hoofdstukken">
+        <div class="hoofdstuk">
+            <div class="hoofdstuk-img-achtergrond" style="background-image:url(plaat/grafieken.jpg)"></div>
+
+            <div class="plaatje">
+              <div class="logo">
+
+              </div>
+              <div class="tekst"><h1>Grafieken</h1></div>
+            </div>
+
+
+        </div>
+
+
+      </div>
+
+
+  </div>
+  
+  
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.hoofdstuk');
+
+portfolioItems.forEach(portfolioItem => {
+  portfolioItem.addEventListener('mouseover', () => {
+    
+    portfolioItem.childNodes[1].classList.add('img-darken');
+  });
+
+  portfolioItem.addEventListener('mouseout', () => {
+    
+    portfolioItem.childNodes[1].classList.remove('img-darken');
+  });
+  });
+</script>
+</html>
